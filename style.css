@@ -1,0 +1,65 @@
+body {
+    background-color : rgb(36, 44, 52);
+    text-align : center;
+    padding : 10%;
+}
+
+h1, h4 {
+    color : rgb(252, 252, 252);
+}
+
+ul {
+    list-style : none;
+}
+
+input[type=text] {
+    color : rgb(53, 58, 63);
+    border : 2px solid rgb(247, 194, 41);
+    border-radius : 5px;
+    width : 350px;
+    height : 35px;
+    margin : 1em;
+}
+
+#input_item {
+    background : none;
+    outline : none;
+    border : none;
+    width : 350px;
+    height : 35px;
+    color : rgb(255, 255, 249)
+}
+
+button[type=button] {
+    color : rgb(53, 58, 63);
+}
+
+.button {
+    border-radius : 5px;
+    outline : none;
+    border : none;
+
+}
+
+#addButton {
+    height : 35px;
+    width : 35px;
+    color : rgb(53, 58, 63);
+    background-color: rgb(247, 194, 41);
+}
+
+#editButton, #doneButton {
+    height : 35px;
+    width : 60px;
+    color : rgb(53, 58, 63);
+    background-color: rgb(83, 164, 81);
+}
+
+.point {
+    color : rgb(83, 164, 81);
+}
+
+#clock {
+    color: rgb(247, 194, 41);
+
+}
